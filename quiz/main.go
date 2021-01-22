@@ -65,7 +65,7 @@ func main() {
 
 	// Show information on the questions the user got wrong or missed
 	if len(wrongAns) > 0 {
-		println("\nSolutions of the ones you got wrong:")
+		println("\nSolutions to the ones you got wrong:")
 		for _, val := range wrongAns {
 			fmt.Printf("Problem %d: %s = %s\n", val+1, problems[val].ques, problems[val].ans)
 		}
